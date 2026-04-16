@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apply to Work Together | Behind The Business</title>
+  <meta
+    name="description"
+    content="Apply to work with Behind The Business through a functional service inquiry form."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Syne:wght@500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Behind The Business home">
+        <span class="brand-mark">BTB</span>
+        <span class="brand-copy">
+          <strong>Behind The Business</strong>
+          <small>Systems ownership for scaling founders</small>
+        </span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html#solution">Solution</a>
+        <a href="index.html#workflow">How it works</a>
+        <a href="ownership.html">What we own</a>
+        <a href="apply.html">Apply</a>
+      </nav>
+
+      <a class="button button-ghost" href="index.html">Back to homepage</a>
+    </header>
+
+    <main>
+      <section class="hero section secondary-hero">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Apply to work together</p>
+          <h1>Tell us where the backend is pulling you back into the weeds.</h1>
+          <p class="hero-lead">
+            This form is for founders who want someone to own the systems layer behind the business.
+            Once submitted, your inquiry is saved locally by this project so we can prove the CTA works end to end.
+          </p>
+
+          <div class="trust-strip">
+            <span>Qualified inquiry</span>
+            <span>Saved locally</span>
+            <span>Ready to review</span>
+          </div>
+        </div>
+
+        <div class="hero-panel reveal">
+          <div class="panel-window">
+            <div class="panel-topbar">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <form class="apply-form" id="apply-form" action="/api/apply" method="post">
+              <div class="form-grid">
+                <label class="form-field">
+                  <span>Name</span>
+                  <input type="text" name="name" placeholder="Your full name" required>
+                </label>
+
+                <label class="form-field">
+                  <span>Email</span>
+                  <input type="email" name="email" placeholder="you@company.com" required>
+                </label>
+
+                <label class="form-field">
+                  <span>Company</span>
+                  <input type="text" name="company" placeholder="Company name" required>
+                </label>
+
+                <label class="form-field">
+                  <span>Revenue stage</span>
+                  <select name="revenue_stage" required>
+                    <option value="">Select one</option>
+                    <option value="under-1m">Under $1M</option>
+                    <option value="1m-3m">$1M-$3M</option>
+                    <option value="3m-10m">$3M-$10M</option>
+                    <option value="10m-plus">$10M+</option>
+                  </select>
+                </label>
+
+                <label class="form-field form-field-full">
+                  <span>What’s breaking right now?</span>
+                  <textarea name="pain_point" rows="4" placeholder="Tell us where systems, tools, or workflows are creating drag." required></textarea>
+                </label>
+
+                <label class="form-field form-field-full">
+                  <span>What do you want owned for you?</span>
+                  <textarea name="desired_outcome" rows="4" placeholder="Examples: CRM cleanup, automation layer, reporting, handoffs, backend ownership." required></textarea>
+                </label>
+              </div>
+
+              <div class="form-actions">
+                <button class="button button-primary pulse-button" type="submit">Submit Application</button>
+                <a class="button button-secondary" href="ownership.html">Review what BTB owns</a>
+              </div>
+
+              <p class="form-status" id="form-status" aria-live="polite"></p>
+              <div class="saved-applications" id="saved-applications">
+                <p class="saved-applications-title">Saved applications on this device</p>
+                <div class="saved-applications-list" id="saved-applications-list"></div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

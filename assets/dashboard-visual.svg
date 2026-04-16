@@ -1,0 +1,89 @@
+<svg width="880" height="620" viewBox="0 0 880 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="880" height="620" rx="32" fill="#FBF7F0"/>
+  <rect x="36" y="36" width="808" height="548" rx="28" fill="#24342B"/>
+
+  <rect x="68" y="76" width="222" height="126" rx="22" fill="#B66A4A"/>
+  <rect x="308" y="76" width="222" height="126" rx="22" fill="#31453A"/>
+  <rect x="548" y="76" width="264" height="126" rx="22" fill="#31453A"/>
+
+  <circle cx="102" cy="112" r="7" fill="#F8F3EB"/>
+  <circle cx="124" cy="112" r="7" fill="#EED7C6"/>
+  <circle cx="146" cy="112" r="7" fill="#DAB8A1"/>
+  <rect x="92" y="138" width="96" height="12" rx="6" fill="#FFF7F0" fill-opacity="0.76"/>
+  <rect x="92" y="160" width="150" height="10" rx="5" fill="#FFF7F0" fill-opacity="0.42"/>
+  <text x="92" y="188" fill="#FFF7F0" font-family="Arial, sans-serif" font-size="30" font-weight="700">68%</text>
+  <text x="162" y="188" fill="#F3DDD1" font-family="Arial, sans-serif" font-size="14">less founder escalations</text>
+
+  <rect x="332" y="112" width="72" height="10" rx="5" fill="#F8F3EB" fill-opacity="0.4"/>
+  <rect x="332" y="136" width="124" height="24" rx="12" fill="#F8F3EB"/>
+  <text x="332" y="188" fill="#FFF7F0" font-family="Arial, sans-serif" font-size="30" font-weight="700">2.1x</text>
+  <text x="396" y="188" fill="#CED7D1" font-family="Arial, sans-serif" font-size="14">handoff clarity</text>
+
+  <rect x="574" y="112" width="108" height="10" rx="5" fill="#F8F3EB" fill-opacity="0.4"/>
+  <rect x="574" y="136" width="172" height="14" rx="7" fill="#F8F3EB"/>
+  <rect x="574" y="160" width="134" height="10" rx="5" fill="#F8F3EB" fill-opacity="0.32"/>
+  <text x="574" y="188" fill="#FFF7F0" font-family="Arial, sans-serif" font-size="30" font-weight="700">1 layer</text>
+  <text x="668" y="188" fill="#CED7D1" font-family="Arial, sans-serif" font-size="14">across CRM, ops, reporting</text>
+
+  <rect x="68" y="226" width="484" height="314" rx="26" fill="#2C3E34"/>
+  <rect x="570" y="226" width="242" height="152" rx="26" fill="#F2E8DA"/>
+  <rect x="570" y="388" width="242" height="152" rx="26" fill="#31453A"/>
+
+  <text x="96" y="262" fill="#F6F0E6" font-family="Arial, sans-serif" font-size="18" font-weight="700">Operational Visibility</text>
+  <text x="96" y="286" fill="#B7C2BC" font-family="Arial, sans-serif" font-size="13">Ticket volume, owner load, and workflow completion</text>
+
+  <line x1="112" y1="468" x2="520" y2="468" stroke="#6A776F" stroke-width="2"/>
+  <line x1="112" y1="326" x2="112" y2="468" stroke="#6A776F" stroke-width="2"/>
+  <line x1="112" y1="430" x2="520" y2="430" stroke="#42544A" stroke-width="1"/>
+  <line x1="112" y1="392" x2="520" y2="392" stroke="#42544A" stroke-width="1"/>
+  <line x1="112" y1="354" x2="520" y2="354" stroke="#42544A" stroke-width="1"/>
+
+  <text x="102" y="472" fill="#A6B2AC" font-family="Arial, sans-serif" font-size="11">W1</text>
+  <text x="180" y="472" fill="#A6B2AC" font-family="Arial, sans-serif" font-size="11">W2</text>
+  <text x="258" y="472" fill="#A6B2AC" font-family="Arial, sans-serif" font-size="11">W3</text>
+  <text x="336" y="472" fill="#A6B2AC" font-family="Arial, sans-serif" font-size="11">W4</text>
+  <text x="414" y="472" fill="#A6B2AC" font-family="Arial, sans-serif" font-size="11">W5</text>
+  <text x="492" y="472" fill="#A6B2AC" font-family="Arial, sans-serif" font-size="11">W6</text>
+
+  <path d="M124 420C150 414 176 396 202 388C228 380 254 384 280 366C306 348 332 334 358 324C384 314 410 318 436 298C462 278 488 270 508 262" stroke="#D9BEA1" stroke-width="6" stroke-linecap="round"/>
+  <path d="M124 446C150 442 176 438 202 430C228 422 254 416 280 408C306 400 332 394 358 386C384 378 410 372 436 362C462 352 488 342 508 334" stroke="#B66A4A" stroke-width="6" stroke-linecap="round"/>
+
+  <circle cx="124" cy="420" r="8" fill="#D9BEA1"/>
+  <circle cx="202" cy="388" r="8" fill="#D9BEA1"/>
+  <circle cx="280" cy="366" r="8" fill="#D9BEA1"/>
+  <circle cx="358" cy="324" r="8" fill="#D9BEA1"/>
+  <circle cx="436" cy="298" r="8" fill="#D9BEA1"/>
+  <circle cx="508" cy="262" r="8" fill="#D9BEA1"/>
+
+  <circle cx="124" cy="446" r="8" fill="#B66A4A"/>
+  <circle cx="202" cy="430" r="8" fill="#B66A4A"/>
+  <circle cx="280" cy="408" r="8" fill="#B66A4A"/>
+  <circle cx="358" cy="386" r="8" fill="#B66A4A"/>
+  <circle cx="436" cy="362" r="8" fill="#B66A4A"/>
+  <circle cx="508" cy="334" r="8" fill="#B66A4A"/>
+
+  <rect x="122" y="302" width="14" height="14" rx="4" fill="#D9BEA1"/>
+  <text x="144" y="313" fill="#CED7D1" font-family="Arial, sans-serif" font-size="12">Team completion rate</text>
+  <rect x="304" y="302" width="14" height="14" rx="4" fill="#B66A4A"/>
+  <text x="326" y="313" fill="#CED7D1" font-family="Arial, sans-serif" font-size="12">Founder intervention</text>
+
+  <text x="594" y="260" fill="#2F3E34" font-family="Arial, sans-serif" font-size="18" font-weight="700">Current Queue</text>
+  <text x="594" y="284" fill="#6C685F" font-family="Arial, sans-serif" font-size="13">Live operating issues by category</text>
+
+  <rect x="594" y="308" width="144" height="16" rx="8" fill="#B66A4A"/>
+  <rect x="594" y="336" width="188" height="16" rx="8" fill="#D7C1A0"/>
+  <rect x="594" y="364" width="116" height="16" rx="8" fill="#8F9A93"/>
+  <text x="748" y="320" fill="#2F3E34" font-family="Arial, sans-serif" font-size="12">handoffs</text>
+  <text x="792" y="348" fill="#2F3E34" font-family="Arial, sans-serif" font-size="12">reporting</text>
+  <text x="720" y="376" fill="#2F3E34" font-family="Arial, sans-serif" font-size="12">alerts</text>
+
+  <text x="594" y="422" fill="#F6F0E6" font-family="Arial, sans-serif" font-size="18" font-weight="700">Ownership Status</text>
+  <text x="594" y="446" fill="#B8C3BD" font-family="Arial, sans-serif" font-size="13">Backend areas and current state</text>
+
+  <rect x="594" y="468" width="92" height="24" rx="12" fill="#F6F0E6"/>
+  <text x="614" y="484" fill="#2F3E34" font-family="Arial, sans-serif" font-size="12" font-weight="700">CRM stable</text>
+  <rect x="694" y="468" width="102" height="24" rx="12" fill="#B66A4A"/>
+  <text x="714" y="484" fill="#FFF7F0" font-family="Arial, sans-serif" font-size="12" font-weight="700">Ops routing</text>
+  <rect x="594" y="502" width="112" height="24" rx="12" fill="#516258"/>
+  <text x="614" y="518" fill="#F6F0E6" font-family="Arial, sans-serif" font-size="12" font-weight="700">Alerts tuning</text>
+</svg>

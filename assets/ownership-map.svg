@@ -1,0 +1,30 @@
+<svg width="880" height="620" viewBox="0 0 880 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="880" height="620" rx="32" fill="#F7F1E7"/>
+  <rect x="362" y="250" width="156" height="120" rx="28" fill="#2F3E34"/>
+  <text x="440" y="302" text-anchor="middle" fill="#F8F3EB" font-family="Arial, sans-serif" font-size="18" font-weight="700">BTB</text>
+  <text x="440" y="328" text-anchor="middle" fill="#D8C4AF" font-family="Arial, sans-serif" font-size="14">Ownership Layer</text>
+  <rect x="88" y="88" width="190" height="104" rx="24" fill="#FFFFFF"/>
+  <rect x="88" y="428" width="190" height="104" rx="24" fill="#FFFFFF"/>
+  <rect x="602" y="88" width="190" height="104" rx="24" fill="#FFFFFF"/>
+  <rect x="602" y="428" width="190" height="104" rx="24" fill="#FFFFFF"/>
+  <rect x="88" y="258" width="190" height="104" rx="24" fill="#B66A4A"/>
+  <rect x="602" y="258" width="190" height="104" rx="24" fill="#DCCAB5"/>
+  <path d="M278 140H336C350 140 362 152 362 166V234" stroke="#B66A4A" stroke-width="8" stroke-linecap="round"/>
+  <path d="M278 310H336C350 310 362 298 362 284V284" stroke="#B66A4A" stroke-width="8" stroke-linecap="round"/>
+  <path d="M278 480H336C350 480 362 468 362 454V386" stroke="#B66A4A" stroke-width="8" stroke-linecap="round"/>
+  <path d="M518 234V166C518 152 530 140 544 140H602" stroke="#6F7C72" stroke-width="8" stroke-linecap="round"/>
+  <path d="M518 284H544C558 284 570 296 570 310H602" stroke="#6F7C72" stroke-width="8" stroke-linecap="round"/>
+  <path d="M518 386V454C518 468 530 480 544 480H602" stroke="#6F7C72" stroke-width="8" stroke-linecap="round"/>
+  <text x="183" y="128" text-anchor="middle" fill="#2F3E34" font-family="Arial, sans-serif" font-size="18" font-weight="700">CRM Structure</text>
+  <text x="183" y="292" text-anchor="middle" fill="#F8F3EB" font-family="Arial, sans-serif" font-size="18" font-weight="700">Workflow Logic</text>
+  <text x="183" y="468" text-anchor="middle" fill="#2F3E34" font-family="Arial, sans-serif" font-size="18" font-weight="700">Reporting</text>
+  <text x="697" y="128" text-anchor="middle" fill="#2F3E34" font-family="Arial, sans-serif" font-size="18" font-weight="700">Permissions</text>
+  <text x="697" y="298" text-anchor="middle" fill="#2F3E34" font-family="Arial, sans-serif" font-size="18" font-weight="700">Automation</text>
+  <text x="697" y="468" text-anchor="middle" fill="#2F3E34" font-family="Arial, sans-serif" font-size="18" font-weight="700">Team Enablement</text>
+  <text x="183" y="156" text-anchor="middle" fill="#756E63" font-family="Arial, sans-serif" font-size="13">Pipelines, data, handoffs</text>
+  <text x="183" y="320" text-anchor="middle" fill="#F4ECE2" font-family="Arial, sans-serif" font-size="13">Flow between people and tools</text>
+  <text x="183" y="496" text-anchor="middle" fill="#756E63" font-family="Arial, sans-serif" font-size="13">Visibility without chasing</text>
+  <text x="697" y="156" text-anchor="middle" fill="#756E63" font-family="Arial, sans-serif" font-size="13">Access and structure</text>
+  <text x="697" y="326" text-anchor="middle" fill="#756E63" font-family="Arial, sans-serif" font-size="13">Triggers, alerts, exceptions</text>
+  <text x="697" y="496" text-anchor="middle" fill="#756E63" font-family="Arial, sans-serif" font-size="13">Training and adoption</text>
+</svg>
