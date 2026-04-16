@@ -1,21 +1,4 @@
 {
   "cleanUrls": false,
-  "trailingSlash": false,
-  "routes": [
-    {
-      "handle": "filesystem"
-    },
-    {
-      "src": "^/$",
-      "dest": "/index.html"
-    },
-    {
-      "src": "^/ownership$",
-      "dest": "/ownership.html"
-    },
-    {
-      "src": "^/apply$",
-      "dest": "/apply.html"
-    }
-  ]
+  "trailingSlash": false
 }
