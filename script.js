@@ -71,8 +71,8 @@ if (applyForm) {
       .map(
         (application) => `
           <article class="saved-application-card">
-            <strong>${application.name} • ${application.company}</strong>
-            <p>${application.revenue_stage} • ${application.email}</p>
+            <strong>${application.name} - ${application.company}</strong>
+            <p>${application.revenue_stage} - ${application.email}</p>
             <p>${application.pain_point}</p>
           </article>
         `

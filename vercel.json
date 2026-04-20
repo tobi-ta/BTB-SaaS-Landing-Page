@@ -1,48 +1,29 @@
 {
   "version": 2,
   "builds": [
-    {
-      "src": "index.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "ownership.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "apply.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "styles.css",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "script.js",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "assets/**",
-      "use": "@vercel/static"
-    }
+    { "src": "*.html", "use": "@vercel/static" },
+    { "src": "styles.css", "use": "@vercel/static" },
+    { "src": "script.js", "use": "@vercel/static" },
+    { "src": "assets/**", "use": "@vercel/static" }
   ],
   "cleanUrls": false,
   "trailingSlash": false,
   "routes": [
-    {
-      "handle": "filesystem"
-    },
-    {
-      "src": "^/$",
-      "dest": "/index.html"
-    },
-    {
-      "src": "^/ownership/?$",
-      "dest": "/ownership.html"
-    },
-    {
-      "src": "^/apply/?$",
-      "dest": "/apply.html"
-    }
+    { "handle": "filesystem" },
+    { "src": "^/$", "dest": "/index.html" },
+    { "src": "^/about/?$", "dest": "/about.html" },
+    { "src": "^/solution/?$", "dest": "/solution.html" },
+    { "src": "^/how-it-works/?$", "dest": "/how-it-works.html" },
+    { "src": "^/proof/?$", "dest": "/proof.html" },
+    { "src": "^/contact/?$", "dest": "/contact.html" },
+    { "src": "^/apply/?$", "dest": "/apply.html" },
+    { "src": "^/ownership/?$", "dest": "/ownership.html" },
+    { "src": "^/announcement/?$", "dest": "/announcement.html" },
+    { "src": "^/workshop/?$", "dest": "/announcement.html" },
+    { "src": "^/crm-structure-cleanup/?$", "dest": "/crm-structure-cleanup.html" },
+    { "src": "^/workflow-automation/?$", "dest": "/workflow-automation.html" },
+    { "src": "^/founder-handoff-coaching/?$", "dest": "/founder-handoff-coaching.html" },
+    { "src": "^/scaling-readiness-assessment/?$", "dest": "/scaling-readiness-assessment.html" },
+    { "src": ".*", "status": 404, "dest": "/404.html" }
   ]
 }
