@@ -131,3 +131,16 @@ if (applyForm) {
     }
   });
 }
+
+document.addEventListener("click", (event) => {
+  const summary = event.target.closest(".faq-question");
+  if (!summary) {
+    return;
+  }
+  const rect = summary.getBoundingClientRect();
+  const arrowZoneWidth = 56;
+  const clickX = event.clientX - rect.left;
+  if (clickX < rect.width - arrowZoneWidth) {
+    event.preventDefault();
+  }
+});
